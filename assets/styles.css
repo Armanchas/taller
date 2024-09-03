@@ -1,0 +1,64 @@
+body {
+    background-color: #fbfbfb;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.company-name {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navbar {
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.navbar img {
+    max-width: 25px;
+    max-height: 22px;
+}
+
+.banner img{
+    max-width: 100%;
+}
+
+.banner-text {
+    background-color: #FFF3E3;
+    margin: 100;
+    padding-top: 100px;
+    padding-bottom: 200px;;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-20%, -24%);
+}
+.category-card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.category-card {
+    width: 300px;
+    height: 300px;
+    background-color: #ffffff;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.category-card img {
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 15px;
+}
