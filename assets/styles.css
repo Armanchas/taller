@@ -6,6 +6,11 @@ body {
     text-align: center;
 }
 
+nav a {
+    color: #000000;
+    text-decoration: none;
+}
+
 .company-name {
     font-size: 20px;
     font-weight: bold;
@@ -60,5 +65,24 @@ body {
 .category-card img {
     max-width: 300px;
     max-height: 300px;
+    border-radius: 15px;
+}
+
+.product-card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 10px;
+    margin-top: 50px;
+}
+
+.product-card {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+.product-card img {
+    max-width: 100%;
+    max-height: 100%;
     border-radius: 15px;
 }
